@@ -1,0 +1,7 @@
+{
+  "env": {
+    "MONGO_USER": "julian-grapqhql-mern",
+    "MONGO_PASSWORD": "Uno2Tres46126115412",
+    "MONGO_DB": "graphql-mern"
+  }
+}

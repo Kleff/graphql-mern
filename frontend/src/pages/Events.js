@@ -10,23 +10,26 @@ class EventsPage extends Component {
   };
 
   startCreateEventHandler = () => {
-    this.state({creating: true})
-  }
-  
+    this.state({ creating: true });
+  };
+
   render() {
     return (
       <>
         {this.state.creating && <Backdrop></Backdrop>}
-        {this.state.creting && <Modal title="Add Event" canCancel canConfirm >
-          <p>Modal Content</p>
-        </Modal>
-        }
+        {this.state.creting && (
+          <Modal title="Add Event" canCancel canConfirm>
+            <p>Modal Content</p>
+          </Modal>
+        )}
         <div className="events-control">
           <p>Share your own Events!</p>
-          <button className="btn" onClick={this.startCreateEventHandler}>Create Event</button>
+          <button className="btn" onClick={this.startCreateEventHandler}>
+            Create Event
+          </button>
         </div>
       </>
-    )
+    );
   }
 }
 

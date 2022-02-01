@@ -5,7 +5,7 @@
 }
 
 .form-control label,
--form-control input {
+.form-control input {
   width: 100%;
   display: flex;
 }
@@ -19,9 +19,9 @@
 }
 
 .form-actions button {
-  background: #01d1d1;
+  background: #5101d1;
   font: inherit;
-  border: 1px solid #01d1d1;
+  border: 1px solid #5101d1;
   border-radius: 3px;
   padding: 0.25rem 1rem;
   margin-right: 1rem;
@@ -32,6 +32,7 @@
 
 .form-actions button:hover,
 .form-actions button:active {
-  background: #00adad;
-  border-color: #00adad;
+  background: white;
+  border-color: white;
+  color: #5101d1;
 }
